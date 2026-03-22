@@ -1,0 +1,455 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+
+  .HeaderDivL {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6%;
+
+    .Logo {
+      width: 13%;
+      height: 27%;
+    }
+
+    .HeaderUlL {
+      width: 80%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 35px;
+      margin-left: 5%;
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    }
+  }
+
+  .HeaderDivR {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+    padding-right: 80px;
+
+    .WorldLogo {
+      width: 3.5%;
+    }
+
+    .HeaderUlR {
+      display: flex;
+      list-style: none;
+      gap: 35px;
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    }
+
+    .HeaderBtn {
+      width: 110px;
+      height: 35px;
+      font-weight: bolder;
+      color: white;
+      background-color: black;
+      border: none;
+      border-radius: 25px;
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    }
+  }
+}
+
+section {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  .SectionH1 {
+    font-size: 65px;
+  }
+
+  .SectionH2 {
+    font-size: 65px;
+  }
+
+  .SectionH3 {
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .SectionH4 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .ButtonDiv {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .SectionBtn1 {
+      width: 12%;
+      height: 100%;
+      border-radius: 50px;
+      background-color: black;
+      border: none;
+      color: white;
+      font-size: 20px;
+    }
+
+    .SectionBtn2 {
+      width: 15%;
+      height: 100%;
+      border-radius: 50px;
+      font-size: 20px;
+    }
+  }
+}
+
+.SecondSection {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .SecondSectionImg {
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}
+
+.ThirdSection {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  .ThirdSectionDivL {
+    width: 35%;
+    height: 40%;
+    padding-left: 6%;
+
+    .TSDH {
+      font-size: 30px;
+    }
+  }
+
+  .ThirdSectionDivR {
+    width: 65%;
+    height: 40%;
+    display: flex;
+    gap: 7%;
+    background-color: red;
+
+    .Amazon {
+      height: 60%;
+      padding-top: 35px;
+    }
+
+    .Accenture {
+      height: 40%;
+      padding-top: 15px;
+    }
+
+    .Johnson {
+      height: 50%;
+      padding-top: 15px;
+    }
+
+    .Dell {
+      height: 50%;
+      padding-top: 15px;
+    }
+
+    .Merck {
+      height: 30%;
+      padding-top: 25px;
+    }
+  }
+}
+
+.FourthSecion {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  .FSH1 {
+    font-size: 50px;
+  }
+}
+
+.FifthSection {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  .DivLine {
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+
+    .FifthSectionUp {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-left: 40px;
+
+      .FifthSectionUpBtn1 {
+        width: 12%;
+        height: 50%;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        background-color: rgb(248, 220, 220);
+      }
+
+      .FifthSectionUpBtn2 {
+        width: 12%;
+        height: 50%;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        background-color: aliceblue;
+      }
+
+      .FifthSectionUpBtn3 {
+        width: 7%;
+        height: 50%;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        background-color: aliceblue;
+      }
+
+      .FifthSectionUpBtn4 {
+        width: 12%;
+        height: 50%;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        background-color: aliceblue;
+      }
+    }
+
+    .FifthSectionDown {
+      width: 100%;
+      height: 80%;
+      display: flex;
+
+      .FifthSectionDownDivL {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .FifthSectionDownImg {
+          width: 90%;
+        }
+      }
+
+      .FifthSectionDownUlR {
+        width: 45%;
+        height: 100%;
+        padding-left: 10%;
+
+        .FifthSectionDownH1R {
+          padding-top: 15%;
+          padding-bottom: 7%;
+        }
+
+        .FifthSectionDownLiR {
+          font-size: 22px;
+          padding-top: 6%;
+          list-style: circle;
+        }
+
+        .FifthSectionDownUlRBtn {
+          width: 27%;
+          height: 12%;
+          margin-top: 12%;
+          border-radius: 50px;
+          font-size: 20px;
+          border-width: 1px;
+          background-color: aliceblue;
+        }
+      }
+    }
+  }
+}
+
+.SixthSection {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-color: red;
+
+  .SSH1 {
+    font-size: 50px;
+  }
+}
+
+.SeventhSection {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+
+  .SeventhSectionUp {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    gap: 15px;
+
+    .SevenSectionUpBtn1 {
+      width: 4%;
+      border: none;
+      font-size: 20px;
+      background-color: aliceblue;
+    }
+
+    .SevenSectionUpBtn2 {
+      width: 4%;
+      height: 85%;
+      border-radius: 50px;
+      border: none;
+      font-size: 20px;
+      color: white;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .SevenSectionUpBtn2Img {
+        width: 50px;
+      }
+    }
+  }
+
+  .SeventhSectionDown {
+    width: 100%;
+    height: 90%;
+    background-color: green;
+  }
+}
