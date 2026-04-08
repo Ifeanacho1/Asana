@@ -879,6 +879,125 @@ section {
   }
 }
 
+.EleventhSection{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .EleventhSectionUp{
+    width: 100%;
+    height: 43.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    .EleventhSectionUpDiv1{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+    }
+
+    .EleventhSectionUpDiv2{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;      
+    }
+
+    .EleventhSectionUpDiv3{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+    }
+
+    .EleventhSectionUpDiv4{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+    }
+  }
+
+  .EleventhSectionDown{
+    width: 100%;
+    height: 43.5vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    .EleventhSectionDownDiv1{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .EleventhSectionDownDiv2{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;  
+      display: flex;
+      justify-content: center;
+      align-items: center;         
+    }
+
+    .EleventhSectionDownDiv3{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;      
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+    }
+
+    .EleventhSectionDownDiv4{
+      width: 23.5%;
+      height: 60%;
+      border-radius: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightgray;      
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+    }
+  }
+}
+
 .TwelvethSection{
   width: 100%;
   height: 35vh;
@@ -899,5 +1018,601 @@ section {
     border-color: black;
     font-size: 15px;
     font-weight: bolder;
+  }
+}
+
+.ThirteenSection{
+  width: 100%;
+  height: 120vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  .ThirteenSectionUp{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 9%;
+    gap: 15px;
+
+    .ThirteenSectionUpBtn1 {
+      width: 3.7%;
+      height: 70%;
+      border-radius: 50px;
+      border: none;
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .ThirteenSectionUpBtn1Img{
+        width: 20px;
+      }
+    }
+
+    .ThirteenSectionUpBtn2 {
+      width: 3.8%;
+      height: 70%;
+      border-radius: 50px;
+      border: none;
+      color: white;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .ThirteenSectionUpBtn2Img {
+        width: 25px;
+      }
+    }
+  }
+
+  .ThirteenSectionDown{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+
+    .ThirteenSectionDownL{
+      width: 28%;
+      height: 100vh;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border: solid;
+      border-width: 1px;
+      border-color: lightblue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .ThirteenSectionDownLUp{
+        width: 100%;
+        height: 65%;  
+        padding-left: 30px;
+        padding-top: 60px;  
+      }
+
+      .ThirteenSectionDownLDown{
+        width: 80%;
+        height: 35%;
+        border-top: solid;
+        border-width: 1px;
+        border-color: lightblue;
+
+        .ThirteenSectionDownLDownH1{
+          font-size: 13px;
+          padding-top: 30px;
+          color: gray;
+        }
+
+        .ThirteenSectionDownLDownH2{
+          font-size: 20px;
+        }
+
+        .ThirteenSectionDownLDownH3{
+          font-size: 13px;
+          padding-top: 30px;
+          color: gray;
+        }
+
+        .ThirteenSectionDownLDownH4{
+          font-size: 20px;
+        }
+      }
+    }
+
+    .ThirteenSectionDownR{
+      width: 62%;
+      height: 100vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: lightblue;
+      padding-top: 50px;
+
+      .ThirteenSectionDownRH1{
+        font-size: 34.5px;
+        padding-left: 60px;
+        color: navy;
+      }
+
+      .ThirteenSectionDownRH2{
+        font-size: 34.5px;
+        padding-left: 75px;
+        padding-bottom: 30px;
+        color: navy;
+      }
+
+      .ThirteenSectionDownRH3{
+        font-size: 16.5px;
+        padding-left: 75px;
+        color: navy;
+      }
+
+      .ThirteenSectionDownRH4{
+        font-size: 16.5px;
+        padding-left: 75px;
+        padding-bottom: 25%;
+        color: navy;
+      }
+
+      .ThirteenSectionDownRBtn{
+        width: 26%;
+        height: 11%;
+        border-radius: 50px;
+        border: solid;
+        border-width: 1px;
+        border-color: navy;
+        background-color: lightblue;
+        font-size: 18px;
+        font-weight: bolder;
+        color: navy;
+        margin-left: 65%;
+      }
+    }
+  }
+}
+
+.ForteenSection{
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  .ForteenSectionDivC{
+    width: 97%;
+    height: 110vh;
+    border-radius: 20px;
+    display: flex;
+    background-color: rgb(247, 244, 244);
+
+    .ForteenSectionDivCL{
+      width: 50%;
+      height: 110vh;
+      padding-left: 40px;
+      padding-top: 10%;
+
+      .ForteenSectionDivCLH1{
+        font-size: 52px;
+        padding-bottom: 20px;
+      }
+
+      .ForteenSectionDivCLH2{
+        font-size: 20px;
+      }
+    }
+
+    .ForteenSectionDivCR{
+      width: 50%;
+      height: 110vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 8%;
+      padding-bottom: 8%;
+
+      .ForteenSectionDivCRT{
+        width: 95%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+
+        .ForteenSectionDivCRTDivL{
+          width: 70%;
+          height: 100%;
+          padding-left: 40px;
+          padding-top: 20px;
+
+          .ForteenSectionDivCRTDivLH1{
+            font-size: 30px;
+            padding-bottom: 10px;
+          }
+
+          .ForteenSectionDivCRTDivLH2{
+            font-size: 20px;
+            color: gray;
+          }
+        }
+
+        .ForteenSectionDivCRTDivR{
+          width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 30px;
+
+          .ForteenSectionDivCRTDivRBtn {
+            width: 36%;
+            height: 38%;
+            border-radius: 50px;
+            border: none;
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .ForteenSectionDivCRTDivRBtnImg {
+              width: 35px;
+            }
+          }
+        }
+      }
+
+      .ForteenSectionDivCRM{
+        width: 95%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+
+        .ForteenSectionDivCRMDivL{
+          width: 70%;
+          height: 100%;
+          padding-left: 40px;
+          padding-top: 20px;
+
+          .ForteenSectionDivCRMDivLH1{
+            font-size: 30px;
+            padding-bottom: 10px;
+          }
+
+          .ForteenSectionDivCRMDivLH2{
+            font-size: 20px;
+            color: gray;
+          }
+        }
+
+        .ForteenSectionDivCRMDivR{
+          width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 30px;
+
+          .ForteenSectionDivCRMDivRBtn {
+            width: 36%;
+            height: 38%;
+            border-radius: 50px;
+            border: none;
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .ForteenSectionDivCRMDivRBtnImg {
+              width: 35px;
+            }
+          }
+        }
+      }
+
+      .ForteenSectionDivCRD{
+        width: 95%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+
+        .ForteenSectionDivCRDDivL{
+          width: 70%;
+          height: 100%;
+          padding-left: 40px;
+          padding-top: 20px;
+
+          .ForteenSectionDivCRDDivLH1{
+            font-size: 30px;
+            padding-bottom: 10px;
+          }
+
+          .ForteenSectionDivCRDDivLH2{
+            font-size: 20px;
+            color: gray;
+          }
+        }
+
+        .ForteenSectionDivCRDDivR{
+          width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 30px;
+
+          .ForteenSectionDivCRDDivRBtn {
+            width: 36%;
+            height: 38%;
+            border-radius: 50px;
+            border: none;
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .ForteenSectionDivCRDDivRBtnImg {
+              width: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.FifteenSection{
+  width: 100%;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  .FifteenSectionUp{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .FifteenSectionUpImg{
+      height: 70%;
+      border-radius: 10px;
+    }
+  }
+
+  .FifteenSectionDown{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .FifteenSectionDownL{
+      width: 30%;
+      height: 70%;
+
+      .FifteenSectionDownLH1{
+        font-size: 20px;
+      }
+
+      .FifteenSectionDownLDiv{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: flex-end;
+
+        .FifteenSectionDownLDivH1{
+          font-size: 16px;
+        }
+
+        .FifteenSectionDownLDivBtn{
+          width: 7%;
+          height: 45%;
+          border-radius: 50px;
+          margin-left: 2%;
+          border: none;
+          color: white;
+          background-color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .FifteenSectionDownLDivBtnImg{
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    .FifteenSectionDownC{
+      width: 30%;
+      height: 70%;
+
+      .FifteenSectionDownCH1{
+        font-size: 20px;
+      }
+
+      .FifteenSectionDownCDiv{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: flex-end;
+
+        .FifteenSectionDownCDivH1{
+          font-size: 16px;
+        }
+
+        .FifteenSectionDownCDivBtn{
+          width: 7%;
+          height: 45%;
+          border-radius: 50px;
+          margin-left: 2%;
+          border: none;
+          color: white;
+          background-color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .FifteenSectionDownCDivBtnImg{
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    .FifteenSectionDownR{
+      width: 30%;
+      height: 70%;
+
+      .FifteenSectionDownRH1{
+        font-size: 20px;
+      }
+
+      .FifteenSectionDownRDiv{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: flex-end;
+
+        .FifteenSectionDownRDivH1{
+          font-size: 16px;
+        }
+
+        .FifteenSectionDownRDivBtn{
+          width: 7%;
+          height: 45%;
+          border-radius: 50px;
+          margin-left: 2%;
+          border: none;
+          color: white;
+          background-color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .FifteenSectionDownRDivBtnImg{
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  height: 210vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #690031;
+
+  .FooterDiv1{
+    width: 90%;
+    height: 90vh;
+    padding-top: 100px;
+    border-bottom: solid;
+    border-width: 1px;
+
+    .FooterDiv1H1{
+      font-size: 52px;
+      padding-bottom: 10px;
+    }
+
+    .FooterDiv1Btn{
+      width: 13%;
+      height: 13%;
+      border-radius: 50px;
+      border: none;
+      margin-bottom: 70px;
+      font-size: 20px;
+      color: #690031;
+    }
+
+    .FooterDiv1H2{
+      font-size: 15px;
+    }
+  }
+
+  .FooterDiv2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 10%;
+
+    .FooterDiv2Div{
+      width: 20%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      
+      .FooterDiv2DivImg{
+        width: 10%;
+      }
+    }
+
+    ul{
+      width: 20%;
+      height: 50%;
+
+      .Lis{
+        font-weight: bolder;
+        padding-bottom: 30px;
+      }
+
+      li{
+        list-style: none;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .FooterDiv3{
+    width: 100%;
+    height: 20vh;
+    background-color: #710C3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .FooterDiv3H1{
+      font-size: 15px;
+      padding-right: 50px;
+    }
+
+    .FooterDiv3H2{
+      font-size: 15px;
+      padding-right: 50px;
+    }
+
+    .FooterDiv3H3{
+      font-size: 15px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .FooterDiv3Img1{
+      width: 30px;
+    }
+
+    .FooterDiv3ImgIg{
+      width: 50px;
+    }
+
+    .FooterDiv3Img2{
+      width: 100px;
+    }
   }
 }

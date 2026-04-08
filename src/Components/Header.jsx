@@ -205,11 +205,270 @@ const Header = () => {
             <button className="TenthSectionBtn">See all integrations</button>
         </div>
 
+        <div className="EleventhSection">
+            <div className="EleventhSectionUp">
+                <div className="EleventhSectionUpDiv1">
+                    <img src="https://assets.asana.biz/m/1eac689324ddc14c/original/Microsoft.svg" alt="" className="EleventhSectionUpDiv1Img"/>
+                </div>
+                <div className="EleventhSectionUpDiv2">
+                    <img src="https://assets.asana.biz/m/150594e58876e038/original/Google-Drive.svg" alt="" className="EleventhSectionUpDiv2Img"/>
+                </div>
+                <div className="EleventhSectionUpDiv3">
+                    <img src="https://assets.asana.biz/m/46e228ae7dab2f0f/original/Slack.svg" alt="" className="EleventhSectionUpDiv3Img"/>
+                </div>
+                <div className="EleventhSectionUpDiv4">
+                    <img src="https://assets.asana.biz/m/49baba0ab294b013/original/Tableau.svg" alt="" className="EleventhSectionUpDiv4Img"/>
+                </div>
+            </div>
+            <div className="EleventhSectionDown">
+                <div className="EleventhSectionDownDiv1">
+                    <img src="https://assets.asana.biz/m/1d7a9d3a9aa4ebd1/original/Nightfall.svg" alt="" className="EleventhSectionDownDiv1Img"/>
+                </div>
+                <div className="EleventhSectionDownDiv2">
+                    <img src="https://assets.asana.biz/m/4e953904d53c54e/original/Microsoft-Outlook.svg" alt="" className="EleventhSectionDownDiv2Img"/>
+                </div>
+                <div className="EleventhSectionDownDiv3">
+                    <img src="https://assets.asana.biz/m/717f7eae038a9050/original/Microsoft-Teams.svg" alt="" className="EleventhSectionDownDiv3Img"/>
+                </div>
+                <div className="EleventhSectionDownDiv4">
+                    <img src="https://assets.asana.biz/m/3af9c9731a7fe964/original/Figma.svg" alt="" className="EleventhSectionDownDiv4Img"/>
+                </div>
+            </div>
+        </div>
+
         <div className="TwelvethSection">
             <h1 className="TwelvethSectionH1">The world's top companies trust
                 <br />Asana</h1>
                 <button className="TwelvethSectionBtn">See all case studies</button>
         </div>
+
+        <div className="ThirteenSection">
+            <div className="ThirteenSectionUp">
+                <button className="ThirteenSectionUpBtn1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/109/109618.png" alt="" className="ThirteenSectionUpBtn1Img"/>
+                </button>
+                <button className="ThirteenSectionUpBtn2">
+                    <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="ThirteenSectionUpBtn2Img"/>
+                </button>
+            </div>
+            <div className="ThirteenSectionDown">
+                <div className="ThirteenSectionDownL">
+                    <div className="ThirteenSectionDownLUp">
+                        <img src="https://assets.asana.biz/m/37f23cc2d55080f/original/Danone_40px_quote.svg" alt="" className="ThirteenSectionDownLUpImg"/>
+                    </div>
+                    <div className="ThirteenSectionDownLDown">
+                        <h1 className="ThirteenSectionDownLDownH1">Company Size</h1>
+                        <h2 className="ThirteenSectionDownLDownH2">Enterprise</h2>
+                        <h3 className="ThirteenSectionDownLDownH3">Industry</h3>
+                        <h4 className="ThirteenSectionDownLDownH4">Food & hospitality</h4>
+                    </div>
+                </div>
+                <div className="ThirteenSectionDownR">
+                    <h1 className="ThirteenSectionDownRH1">"Asana makes everything shareable, which</h1>
+                    <h2 className="ThirteenSectionDownRH2">saves us time executing programs
+                        <br />because it's so much easier to replicate
+                        <br />and learn from what others have done.</h2>
+                    <h3 className="ThirteenSectionDownRH3">Simon Levinson</h3>
+                    <h4 className="ThirteenSectionDownRH4">Global Digital Manufacturing Process Innovation Manager, Danone</h4>
+                    <button className="ThirteenSectionDownRBtn">Read case study</button>
+                </div>
+            </div>
+        </div>
+
+        <div className="ForteenSection">
+            <div className="ForteenSectionDivC">
+                <div className="ForteenSectionDivCL">
+                    <h1 className="ForteenSectionDivCLH1">Get started easily</h1>
+                    <h2 className="ForteenSectionDivCLH2">Tour the platform, read a few deep dives, or kickstart 
+                        <br />your work management journey with the right
+                        <br />template.</h2>
+                </div>
+                <div className="ForteenSectionDivCR">
+                    <div className="ForteenSectionDivCRT">
+                        <div className="ForteenSectionDivCRTDivL">
+                            <h1 className="ForteenSectionDivCRTDivLH1">Try the Asana demo</h1>
+                            <h2 className="ForteenSectionDivCRTDivLH2">See Asana in action</h2>
+                        </div>
+                        <div className="ForteenSectionDivCRTDivR">
+                            <button className="ForteenSectionDivCRTDivRBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="ForteenSectionDivCRTDivRBtnImg"/>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="ForteenSectionDivCRM">
+                        <div className="ForteenSectionDivCRMDivL">
+                            <h1 className="ForteenSectionDivCRMDivLH1">Discover resources</h1>
+                            <h2 className="ForteenSectionDivCRMDivLH2">Help articles and tutorials</h2>
+                        </div>
+                        <div className="ForteenSectionDivCRMDivR">
+                            <button className="ForteenSectionDivCRMDivRBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="ForteenSectionDivCRMDivRBtnImg"/>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="ForteenSectionDivCRD">
+                        <div className="ForteenSectionDivCRDDivL">
+                            <h1 className="ForteenSectionDivCRDDivLH1">Start with a template</h1>
+                            <h2 className="ForteenSectionDivCRDDivLH2">Get started faster with a template</h2>
+                        </div>
+                        <div className="ForteenSectionDivCRDDivR">
+                            <button className="ForteenSectionDivCRDDivRBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="ForteenSectionDivCRDDivRBtnImg"/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="FifteenSection">
+            <div className="FifteenSectionUp">
+                <img src="https://assets.asana.biz/transform/8d1a1cac-7296-49b4-b09a-f0e032bf7ae9/2025-Forrester-CWM-Card-Image?io=transform:fill,width:960&format=webp" alt="" className="FifteenSectionUpImg"/>
+                <img src="https://assets.asana.biz/transform/ace1daba-48cc-4d84-8f77-b14f65bd9cff/thumbnail_gartnerlogoupdate_static?io=transform:fill,width:1120&format=webp" alt="" className="FifteenSectionUpImg"/>
+                <img src="https://assets.asana.biz/transform/3fe8cd2a-6a9a-4c71-96d7-acd70b2682d0/compare-monday-fy26-experts-g2?io=transform:fill,width:960&format=webp" alt="" className="FifteenSectionUpImg"/>
+            </div>
+            <div className="FifteenSectionDown">
+                <div className="FifteenSectionDownL">
+                    <h1 className="FifteenSectionDownLH1">A Leader in The Forrester Wave:
+                        <br />Collaborative Work Management Tools
+                        <br />2025 Report</h1>
+                    <div className="FifteenSectionDownLDiv">
+                        <h1 className="FifteenSectionDownLDivH1">Get the Report</h1>
+                            <button className="FifteenSectionDownLDivBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="FifteenSectionDownLDivBtnImg"/>
+                            </button>
+                    </div>
+                </div>
+                <div className="FifteenSectionDownC">
+                    <h1 className="FifteenSectionDownCH1">A Leader in the 2025 Gartner Magic
+                        <br />Quadrant for Collaborative Work
+                        <br />Management three years in a row</h1>
+                    <div className="FifteenSectionDownCDiv">
+                        <h1 className="FifteenSectionDownCDivH1">Learn more</h1>
+                            <button className="FifteenSectionDownCDivBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="FifteenSectionDownCDivBtnImg"/>
+                            </button>
+                    </div>
+                </div>
+                <div className="FifteenSectionDownR">
+                    <h1 className="FifteenSectionDownRH1">A leader in Work Management and OKR
+                        <br />Software with more than 12,000 user
+                        <br />reviews</h1>
+                    <div className="FifteenSectionDownRDiv">
+                        <h1 className="FifteenSectionDownRDivH1">Read user reviews</h1>
+                            <button className="FifteenSectionDownRDivBtn">
+                                <img src="https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US" alt="" className="FifteenSectionDownRDivBtnImg"/>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div className="FooterDiv1">
+                <h1 className="FooterDiv1H1">The only platform
+                    <br />that can support
+                    <br />your company at
+                    <br />any scale</h1>
+                <button className="FooterDiv1Btn">Get started</button>
+                <h2 className="FooterDiv1H2">1. Accurate as of December 2023, includes free and paid users.</h2>
+            </div>
+            <div className="FooterDiv2">
+                <div className="FooterDiv2Div">
+                    <img src="https://companieslogo.com/img/orig/ASAN-1325de11.png?t=1751228060" alt="" className="FooterDiv2DivImg"/>
+                </div>
+                <ul>
+                    <li className="Lis">New to Asana?</li>
+                    <li>Product overview</li>
+                    <li>All features</li>
+                    <li>Latest feature release</li>
+                    <li>Pricing</li>
+                    <li>Starter plan</li>
+                    <li>Advanced plan</li>
+                    <li>Enterprise</li>
+                    <li>App integrations</li>
+                    <li>AI work management</li>
+                    <li>Project management</li>
+                    <li>Resource management</li>
+
+                </ul>
+                <ul>
+                    <li className="Lis">Use cases</li>
+                    <li>Campaign 
+                        <br />management</li>
+                    <li>Content calendar</li>
+                    <li>Creative production</li>
+                    <li>Goal management</li>
+                    <li>New hire onboarding</li>
+                    <li>Organizational planning</li>
+                    <li>Product launches</li>
+                    <li>Resource planning</li>
+                    <li>Strategic planning</li>
+                    <li>Project intake</li>
+                    <li>All use cases</li>
+                </ul>
+                <ul>
+                    <li className="Lis">Solutions</li>
+                    <li>Small business</li>
+                    <li>Marketing</li>
+                    <li>Operations</li>
+                    <li>IT</li>
+                    <li>Product</li>
+                    <li>Sales</li>
+                    <li>Healthcare</li>
+                    <li>Retail</li>
+                    <li>Government</li>
+                    <li>Education</li>
+                    <li>Manufacturing</li>
+                    <li>Nonprofits</li>
+                    <li>Startups</li>
+                    <li>All teams</li>
+                </ul>
+                <ul>
+                    <li className="Lis">Resources</li>
+                    <li>Help Center</li>
+                    <li>Get support</li>
+                    <li>Asana Academy</li>
+                    <li>Certifications</li>
+                    <li>Forum</li>
+                    <li>Resource center</li>
+                    <li>Events and webinars</li>
+                    <li>Project templates</li>
+                    <li>Customer Success</li>
+                    <li>Developers and API</li>
+                    <li>Partners</li>
+                    <li>Sitemap</li>
+                </ul>
+                <ul>
+                    <li className="Lis">Company</li>
+                    <li>About us</li>
+                    <li>Leadership</li>
+                    <li>Customers</li>
+                    <li>Careers</li>
+                    <li>Inside Asana</li>
+                    <li>Culture</li>
+                    <li>Press</li>
+                    <li>Investor relations</li>
+                    <li>Trust and security</li>
+                    <li>Privacy</li>
+                    <li>Supplier responsibility</li>
+                    <li>Sustainability and ESG</li>  
+                </ul>
+            </div>
+            <div className="FooterDiv3">
+                <h1 className="FooterDiv3H1">© 2026 Asana, Inc.</h1>
+                <img src="https://assets.asana.biz/transform/3ac30492-304b-4644-a39b-e89fad0df303/SD040-web-nav-GlobeIcon-en-US" alt="" className="FooterDiv3Img1"/>
+                <h2 className="FooterDiv3H2">English</h2>
+                <img src="https://images.seeklogo.com/logo-png/49/2/twitter-x-logo-png_seeklogo-492396.png" alt="" className="FooterDiv3Img1"/>
+                <img src="https://static.vecteezy.com/system/resources/previews/055/997/046/non_2x/linkedin-logo-icon-file-free-png.png" alt="" className="FooterDiv3Img1"/>
+                <img src="https://static.vecteezy.com/system/resources/previews/065/386/514/non_2x/instagram-black-circle-logo-icon-ig-app-transparent-background-premium-social-media-design-for-digital-download-free-png.png" alt="" className="FooterDiv3ImgIg"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facebook_icon_%28black%29.svg/3840px-Facebook_icon_%28black%29.svg.png" alt="" className="FooterDiv3Img1"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CIS-A2K_Youtube_Icon_%28Black%29.svg/960px-CIS-A2K_Youtube_Icon_%28Black%29.svg.png" alt="" className="FooterDiv3Img1"/>
+                <h3 className="FooterDiv3H3">Terms & Privacy</h3>
+                <img src="https://assets.asana.biz/m/789462af5a590563/original/Download_App_Store_Badge_US.svg" alt="" className="FooterDiv3Img2"/>
+                <img src="https://assets.asana.biz/m/2830b6f5895bc51c/original/Google_Play_EN.svg" alt="" className="FooterDiv3Img2"/>
+            </div>
+        </footer>
     </>
   )
 }
